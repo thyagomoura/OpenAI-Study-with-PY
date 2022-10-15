@@ -1,8 +1,9 @@
-# Simple Chatbot with Py
-
 #### obs: 
 You must have python3 and pip on your machine
 You need to have a key that you can get from the official [openai website](https://beta.openai.com/account/api-keys)
+
+
+# 1 - Simple Chatbot
 
 ### Using:
 Create a new Python shell session in your code edit and use as an example:
@@ -20,4 +21,19 @@ Create a new Python shell session in your code edit and use as an example:
 >>> question = 'Was he in any other great roles?'
 >>> answer = ask(question, chat_log)
 >>> answer
+```
+# 2 - Recipe Generator
+
+### Using:
+Create a new Python shell session in your code edit and use as an example:
+
+```py
+>>>> from ingredients import GPT_Completion
+>>>> recipe = 'Provide a cooking recipe based on the following ingredients: \
+\n \nApple \
+\n \nWater \
+\n \nChicken \
+\n \nOlive oil'
+
+>>>> GPT_Completion(recipe)
 ```
